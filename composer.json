@@ -1,0 +1,21 @@
+{
+    "name": "borgou/aliyun-php-sdk-push",
+    "type": "library",
+    "homepage": "https://github.com/borgou/aliyun-php-sdk-push",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Push\\Request\\V20160801\\": "src/Push/Request/V20160801/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Borg Ou",
+            "email": "borgou@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "borgou/aliyun-php-sdk-core": "*"
+    }
+}
